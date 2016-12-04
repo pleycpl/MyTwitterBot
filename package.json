@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pleycpl/MyTwitterBot/issues"
   },
-  "homepage": "https://github.com/pleycpl/MyTwitterBot#readme"
+  "homepage": "https://github.com/pleycpl/MyTwitterBot#readme",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
 }
