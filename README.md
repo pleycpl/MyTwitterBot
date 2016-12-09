@@ -5,7 +5,11 @@ I am using twit package this bot.
 ```
   $ git clone https://github.com/pleycpl/MyTwitterBot
   $ npm install
-  $ vim config.js   # Creating config.js file
+```
+## Before Usage, You should create config.js file##
+```
+  $ # <Path - 1> Creating config.js file with vim
+  $ vim config.js
     module.exports = {
       consumer_key: "xxx",
       consumer_secret: "xxx",
@@ -13,6 +17,9 @@ I am using twit package this bot.
       access_token_secret: "xxx",
       timeout_ms: 60*1000,
     }
+  $ # <Path - 2> Creatin config.js file with shell script
+  $ chmod +x createConfig.sh
+  $ ./createConfig.sh
 ```
 ## Usage ##
 ```
