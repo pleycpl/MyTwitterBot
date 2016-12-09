@@ -1,4 +1,4 @@
-# MyTwitterBot
+# Twitter Bot Examples
 I am using twit package this bot. 
 
 ## Installing ##
